@@ -1,0 +1,73 @@
+/* ======================== Cart Item Css Start =================== */
+.shoppingItem {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(var(--border-color));
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.shoppingItem:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.shoppingItemLeft {
+
+}
+.shoppingItemThumb {
+    width: 60px;
+    height: 70px;
+    border: 1px solid hsl(var(--border-color));
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    flex-shrink: 0;
+}
+.shoppingItemContent {
+}
+.shoppingItemTitleLink {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.shoppingItemPrice {
+
+}
+.shoppingItemRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: max-content;
+    font-size: 14px;
+}
+.shoppingItemRemove:hover {
+    color: hsl(var(--danger));
+}
+.countItem {
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+    height: 30px;
+    align-items: center;
+    font-size: 14px;
+}
+.countItem button {
+    color: hsl(var(--body-color));
+} 
+.countItem button:hover {
+    color: hsl(var(--base));
+}
+.countItemDecrement {
+
+} 
+.countItemCount {
+
+}
+.countItemIncrement {
+
+} 
+ 
+/* ======================== Cart Item Css End =================== */

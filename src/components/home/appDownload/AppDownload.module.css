@@ -1,0 +1,29 @@
+/* ============= App Download Css Start =========== */
+.appDownloadContent {
+    background-color: hsl(var(--base));
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.appDownloadInner {
+    background-color: hsl(var(--white));
+    padding: 24px;
+    border-radius: inherit;
+}
+@media (max-width: 767px) {
+    .appDownloadContent {
+        padding: 24px;
+    }
+}
+@media (max-width: 575px) {
+    .appDownloadContent {
+        padding: 16px;
+    }
+    .appDownloadInner {
+        padding: 16px;
+    }
+}
+.appDownloadContentInner {
+    max-width: 500px;
+}
+/* ============= App Download Css End =========== */

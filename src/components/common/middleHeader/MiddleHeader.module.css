@@ -1,0 +1,94 @@
+/* ================== Middle Header Css Start ====================== */
+.middleHeader {
+    background-color: hsl(var(--base));
+    padding: 8px 0;
+}
+
+.middleHeaderInner {
+
+}
+.Logo {
+
+}
+.LogoLink {
+
+}
+.middleHeaderSearch {
+
+}
+/* Search Form Css Start */
+.searchForm {
+    position: relative;
+    max-width: 512px;
+    width: 100%;
+}
+@media (max-width: 991px) {
+    .searchForm {
+        order: 1;
+        max-width: 100%;
+    }
+}
+.searchFormInput {
+    background-color: hsl(var(--white)) !important;
+    border-color: hsl(var(--white)) !important;
+    color: hsl(var(--heading-color));
+    padding-right: 60px;
+}
+.searchFormInput::placeholder {
+    transition: .2s linear;
+}
+.searchFormInput:focus::placeholder {
+    visibility: hidden;
+    opacity: 0;
+}
+.searchFormIcon {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%) scaleX(-1);
+    font-size: 24px;
+    color: hsl(var(--body-color)/.6); 
+}
+.searchFormIcon:hover {
+    color: hsl(var(--base));
+}
+/* Search Form Css End */
+
+
+.actionButton {
+    color: hsl(var(--white));
+    background: hsl(var(--white)/.2);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+    position: relative;
+}
+.actionButton:has(.actionButtonCount) {
+    margin-right: 4px;
+}
+.actionButton:hover {
+    color: hsl(var(--white));
+    background-color: hsl(var(--white)/.35);
+
+}
+.actionButtonCount {
+    position: absolute;
+    right: -6px;
+    top: -2px;
+    background-color: hsl(var(--danger));
+    color: hsl(var(--white));
+    line-height: 1;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 11px;
+}
+/* ================== Middle Header Css End ====================== */

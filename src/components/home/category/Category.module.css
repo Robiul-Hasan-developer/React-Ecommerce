@@ -1,0 +1,51 @@
+/* ============= Category Css Start ================ */
+.category {
+}
+.categoryWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+    .categoryWrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 575px) {
+    .categoryWrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.categoryItem {
+  text-align: center;
+}
+.categoryItem:hover .categoryItemThumb img {
+  transform: scale(0.9);
+}
+.categoryItemThumb {
+  max-width: 180px;
+  max-height: 180px;
+  background-color: hsl(var(--section-bg));
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 1;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.categoryItemThumb img {
+  max-width: 84px;
+  transition: 0.2s linear;
+}
+.categoryItemContent {
+  margin-top: 20px;
+}
+.categoryItemTitle {
+  margin-bottom: 0;
+}
+.categoryItemQty {
+  font-size: 14px;
+}
+/* ============= Category Css End ================ */

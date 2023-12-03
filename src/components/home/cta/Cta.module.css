@@ -1,0 +1,13 @@
+/* ===================== Cta Css Start ============== */
+.subscribe-form {
+    box-shadow: 0 0 0 8px #ffffff17;
+    border-radius: 5px;
+    max-width: 500px;
+  }
+  .subscribe-form .form--control {
+    background-color: hsl(var(--white)) !important;
+    padding: 17px;
+    border-radius: 5px;
+    color: hsl(var(--black)) !important;
+  }
+/* ===================== Cta Css End  ============== */

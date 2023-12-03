@@ -1,0 +1,38 @@
+/* =================== Feature Css Start =============== */
+.feature {
+
+}
+.featureWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+@media (max-width: 991px) {
+    .featureWrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 500px) {
+    .featureWrapper {
+        grid-template-columns: 1fr;
+    }
+}
+.featureItem {
+    background-color: hsl(var(--section-bg));
+    padding: 20px 16px;
+    border-radius: 5px;
+}
+.featureItemIcon {
+    font-size: 28px;
+    color: hsl(var(--base));
+}
+.featureItemContent {
+
+}
+.featureItemTitle {
+
+}
+.featureItemDesc {
+
+}
+/* =================== Feature Css End =============== */
