@@ -23,7 +23,7 @@ function App() {
               <Route path="/" element={<Home/>}>  </Route>
               <Route path="/product/:id" element={<ProductDetails/>}>  </Route>
               <Route path="/contact" element={<Contact/>}>  </Route>
-            </Routes>
+            </Routes> 
         </BrowserRouter>
       <ScrollToTop/>
     </>

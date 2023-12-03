@@ -2,7 +2,7 @@
 import React, { useContext, useState } from 'react';
 import MhCss from './MiddleHeader.module.css';
 import { Link, useNavigate } from 'react-router-dom';
-import Logo from '../../../../public/images/logo.svg'
+import Logo from '../../../assets/images/logo.svg'
 import { SidebarContext } from '../sidebarContext/SidebarContext';
 import { CartContext } from '../cartContext/CartContext';
 
@@ -45,7 +45,7 @@ const MiddleHeader = () => {
                             <button type="submit" className={`${MhCss.searchFormIcon}`}> <i className="las la-search"></i> </button>
                         </form>
                         <div className={`flex-align gap-3 ${MhCss.actionButtons}`}>
-                        
+
                             <button type="button" onClick={()=> {handleSidebarClick(); handleHideOverlay();}} className={`${MhCss.actionButton}`}>
                                 <i className="fas fa-shopping-cart"></i>
                                 <span className={`${MhCss.actionButtonCount}`}>{itemAmount}</span>
