@@ -41,7 +41,7 @@ const MiddleHeader = () => {
                             </Link>
                         </div>
                         <form className={`${MhCss.searchForm}`}>
-                            <input type="text" className={`form--control ${MhCss.searchFormInput}`} placeholder='Search for products (e.g. shirt, pant, cap)' />
+                            <input type="text" className={`form--control ${MhCss.searchFormInput}`} placeholder='Search for products (e.g. shirt, pant, beg)' />
                             <button type="submit" className={`${MhCss.searchFormIcon}`}> <i className="las la-search"></i> </button>
                         </form>
                         <div className={`flex-align gap-3 ${MhCss.actionButtons}`}>
