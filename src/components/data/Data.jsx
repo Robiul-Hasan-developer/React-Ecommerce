@@ -93,29 +93,36 @@ export const heros = [
    image: img3
   },
 ]
+
+import cartImg1 from '../../assets/images/product-cat-1.png'
+import cartImg2 from '../../assets/images/product-cat-2.png'
+import cartImg3 from '../../assets/images/product-cat-3.png'
+import cartImg4 from '../../assets/images/product-cat-4.png'
+import cartImg5 from '../../assets/images/product-cat-5.png'
+
 export const catItems = [
   {
-    image: "../../../src/assets/images/product-cat-1.png",
+    image: cartImg1,
     name: "Headphones",
     qty: "3 Product", 
   },
   {
-    image: "../../../src/assets/images/product-cat-2.png",
+    image: cartImg2,
     name: "Mobile Tablets ",
     qty: "2 Product", 
   },
   {
-    image: "../../../src/assets/images/product-cat-3.png",
+    image: cartImg3,
     name: "CPU Heat Pipes ",
     qty: "6 Product", 
   },
   {
-    image: "../../../src/assets/images/product-cat-4.png",
+    image: cartImg4,
     name: " Smart Watch",
     qty: "1 Product", 
   },
   {
-    image: "../../../src/assets/images/product-cat-5.png",
+    image: cartImg5,
     name: " Bluetooth",
     qty: "8 Product", 
   },
@@ -142,20 +149,29 @@ export const features = [
     desc: " Contact us 24 hours a day", 
   },
 ]
+
+import appDownloadImg from '../../assets/images/delivery-boy.webp'
+
 export const appDownload = {
   subtitle:  "Organic Products and Food",
   title:  "Quick Delivery to Your Home",
   desc:  "There are many products you will find in our shop, Choose your daily necessary product from our KachaBazar shop and get some special offers. See Our latest discounted products from here and get a special discount.",
-  image: '../../../src/assets/images/delivery-boy.webp'
+  image: appDownloadImg
 }
+
+import imageLeft from '../../assets/images/app-download-img-left.webp'
+import imageRight from '../../assets/images/app-download-img-right.webp'
+import appStoreImage from '../../assets/images/app-store.svg'
+import appGoogle from '../../assets/images/play-store.svg'
+
 export const appStore = {
   subtitle:  "Organic Products and Food",
   title:  "Get Your Daily Needs From Our KachaBazar Store",
   desc:  "There are many products you will find in our shop, Choose your daily necessary product from our KachaBazar shop and get some special offers.",
-  imageLeft: '../../../src/assets/images/app-download-img-left.webp',
-  imageRight: '../../../src/assets/images/app-download-img-right.webp',
-  appStore: '../../../src/assets/images/app-store.svg',
-  appGoogle: '../../../src/assets/images/play-store.svg',
+  imageLeft: imageLeft,
+  imageRight: imageRight,
+  appStore: appStoreImage,
+  appGoogle: appGoogle,
 }
 
 export const footer = [
