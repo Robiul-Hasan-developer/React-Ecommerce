@@ -68,49 +68,54 @@ export const categories = [
         path: "/",
     },
 ]
+
+import img1 from '../../assets/images/slider-img-1.png'
+import img2 from '../../assets/images/slider-img-2.png'
+import img3 from '../../assets/images/slider-img-3.png'
+
 export const heros = [
   {
    subtitle: "Starting at $274", 
    title: "The best tablet Collection 2023",
    desc: "Exclusive offer -35% off this week ", 
-   image: "../../assets/images/slider-img-1.png",
+   image: img1,
   },
   {
    subtitle: "Starting at $99", 
    title: "The best note book collection 2023",
    desc: "Exclusive offer -10% off this week ", 
-   image: "../../assets/images/slider-img-2.png",
+   image: img2
   },
   {
    subtitle: "Starting at $8564", 
    title: "The best Mac book collection 2023",
    desc: "Exclusive offer -50% off this week ", 
-   image: "../../assets/images/slider-img-3.png"
+   image: img3
   },
 ]
 export const catItems = [
   {
-    image: "../../assets/images/product-cat-1.png",
+    image: "../../../src/assets/images/product-cat-1.png",
     name: "Headphones",
     qty: "3 Product", 
   },
   {
-    image: "../../assets/images/product-cat-2.png",
+    image: "../../../src/assets/images/product-cat-2.png",
     name: "Mobile Tablets ",
     qty: "2 Product", 
   },
   {
-    image: "../../assets/images/product-cat-3.png",
+    image: "../../../src/assets/images/product-cat-3.png",
     name: "CPU Heat Pipes ",
     qty: "6 Product", 
   },
   {
-    image: "../../assets/images/product-cat-4.png",
+    image: "../../../src/assets/images/product-cat-4.png",
     name: " Smart Watch",
     qty: "1 Product", 
   },
   {
-    image: "../../assets/images/product-cat-5.png",
+    image: "../../../src/assets/images/product-cat-5.png",
     name: " Bluetooth",
     qty: "8 Product", 
   },
@@ -141,16 +146,16 @@ export const appDownload = {
   subtitle:  "Organic Products and Food",
   title:  "Quick Delivery to Your Home",
   desc:  "There are many products you will find in our shop, Choose your daily necessary product from our KachaBazar shop and get some special offers. See Our latest discounted products from here and get a special discount.",
-  image: '../../assets/images/delivery-boy.webp'
+  image: '../../../src/assets/images/delivery-boy.webp'
 }
 export const appStore = {
   subtitle:  "Organic Products and Food",
   title:  "Get Your Daily Needs From Our KachaBazar Store",
   desc:  "There are many products you will find in our shop, Choose your daily necessary product from our KachaBazar shop and get some special offers.",
-  imageLeft: '../../assets/images/app-download-img-left.webp',
-  imageRight: '../../assets/images/app-download-img-right.webp',
-  appStore: '../../assets/images/app-store.svg',
-  appGoogle: '../../assets/images/play-store.svg',
+  imageLeft: '../../../src/assets/images/app-download-img-left.webp',
+  imageRight: '../../../src/assets/images/app-download-img-right.webp',
+  appStore: '../../../src/assets/images/app-store.svg',
+  appGoogle: '../../../src/assets/images/play-store.svg',
 }
 
 export const footer = [
